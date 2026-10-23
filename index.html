@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<title>DEEP SHIFT — PS1 Horror</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="loading">ЗАГРУЗКА ОБЪЕКТА 09...</div>
+<div id="hud">
+  <div class="topline"><span>DEEP SHIFT // СЕКТОР 09</span><span id="objective">ПРЕДМЕТЫ: 0/3</span></div>
+  <div id="message">Найди 3 предохранителя и доберись до лифта.</div>
+  <div id="staminaWrap"><span>ВЫНОСЛИВОСТЬ</span><div><i id="stamina"></i></div></div>
+  <div id="crosshair">+</div>
+  <div id="hint"></div>
+</div>
+<div id="touch">
+  <div id="stickZone"><div id="stickBase"><div id="stickKnob"></div></div></div>
+  <div id="buttons">
+    <button id="runBtn" class="touchbtn">БЕГ</button>
+    <button id="jumpBtn" class="touchbtn">ПРЫЖОК</button>
+    <button id="useBtn" class="touchbtn">ВЗЯТЬ</button>
+  </div>
+  <div id="lookZone"></div>
+</div>
+<div id="overlay" class="hidden">
+  <div class="panel"><h1 id="endTitle">СМЕНА ОКОНЧЕНА</h1><p id="endText"></p><button id="restart">ЗАНОВО</button></div>
+</div>
+<script type="module" src="js/game.js"></script>
+</body>
+</html>
